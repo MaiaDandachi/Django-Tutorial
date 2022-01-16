@@ -1,0 +1,6 @@
+# Distribution / packaging
+Lib/
+
+# Django
+__pycache__/
+db.sqlite3
