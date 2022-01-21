@@ -7,7 +7,7 @@ from django.template.loader import render_to_string
 from articles.models import Article
 
 
-def home_view(request):
+def home_view(request, *args, **kwargs):
     """
     Takes in a django request
     Returns an HTML response 
