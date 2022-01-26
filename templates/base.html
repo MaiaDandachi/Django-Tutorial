@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body></body>
-  {% block content_variable %} {% endblock content_variable %}
+  <body>
+    <form action="/articles/" method="GET">
+      <input type="text" name="query" />
+      <input type="submit" />
+    </form>
+    {% block content_variable %} {% endblock content_variable %}
+  </body>
 </html>
